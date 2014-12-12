@@ -1,0 +1,20 @@
+{
+    "name": "kahc/flash",    
+    "type": "library",
+    "description": "Tool for creating important flash messages",
+    "keywords": ["flash", "framework", "mvc", "message", "education"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karl Höggren",
+            "email": "K_m_t_h@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+	"autoload": {
+        "psr-4": { "kahc\\": "src/" }
+    }
+}
