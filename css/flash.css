@@ -1,0 +1,54 @@
+#error{
+
+    background-color: #AD0625;
+    color: #FF7790;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 20px;
+;
+}
+
+#success{
+
+    background-color: #07822E;
+    color: #77FFA2;
+	height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 20px;
+}
+
+#debug{
+
+    background-color: #035399;
+    color: #48A7F9;
+	height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 20px;
+;
+}
+
+#warning{
+
+    background-color: #AA9F00;
+    color: #EFE76E;
+	height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 20px;
+;
+}
