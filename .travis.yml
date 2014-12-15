@@ -6,3 +6,8 @@ php:
 before_script:
 - wget https://scrutinizer-ci.com/ocular.phar
 - composer install
+script:
+#- phpunit --bootstrap test/config.php test
+- phpunit --bootstrap webroot/config.php --coverage-clover coverage.clover test
+after_script:
+- php ocular.phar code-coverage:upload --format=php-clover coverage.clover
