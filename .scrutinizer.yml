@@ -1,0 +1,9 @@
+excluded_paths: [test/*]
+  tools:
+    external_code_coverage: true
+    external_code_coverage: true
+
+checks:
+  php:
+    code_rating: true
+    duplication: true
