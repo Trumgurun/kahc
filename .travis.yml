@@ -5,9 +5,7 @@ php:
 - hhvm
 before_script:
 - wget https://scrutinizer-ci.com/ocular.phar
-- composer install
 script:
-#- phpunit --bootstrap test/config.php test
-- phpunit --bootstrap test/config.php --coverage-clover coverage.clover test
+- phpunit --coverage-clover coverage.clover test/config.php test
 after_script:
 - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
